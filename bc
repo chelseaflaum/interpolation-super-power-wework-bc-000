@@ -1,0 +1,11 @@
+def print_business_card(person)
+ puts "Name: #{person[0]}, Age: #{person[1]}, Occupation: #{person[2]}"
+ puts "Contact: #{person[3]}"
+end
+
+Bob = ["Bob", 46, "Juggler", "55555555"]
+Stef = ["Stef", 22, "Sales", "3333333"]
+
+puts print_business_card(Bob)
+
+puts print_business_card(Stef)
